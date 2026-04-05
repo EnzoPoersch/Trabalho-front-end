@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Torcedor - Sua Loja de Esportes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="imagens/logo.png" alt="Logo colorida da Casa do Torcedor com ícones de esportes" class="logo-img">
+            <div class="titulo-loja">
+                <h1>Casa do Torcedor</h1>
+                <p>Sua loja de esportes e paixão!</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="boas-vindas">
+            <h2>Bem-vindo à nossa Vitrine de Produtos ⚽</h2>
+        </section>
+
+        <section class="produtos-grid">
+            <div class="produto-card">
+                <img src="imagens/camisa.png" alt="Camisa oficial amarela da Seleção Brasileira">
+                <h3>Camisetas de Time</h3>
+                <p class="preco">R$ 99,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="produto-card">
+                <img src="imagens/bola.png" alt="Bola de futebol profissional preta e branca">
+                <h3>Bola Oficial</h3>
+                <p class="preco">R$ 79,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+
+            <div class="produto-card">
+                <img src="imagens/chuteira.png" alt="Chuteira de campo profissional preta com detalhes coloridos">
+                <h3>Chuteira Profissional</h3>
+                <p class="preco">R$ 199,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2>Fale Conosco</h2>
+            <form id="formContato">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Casa do Torcedor - Trabalho de Programação Front-End</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
